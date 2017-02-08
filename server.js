@@ -9,9 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'calender.html'));
 });
 
-app.get('/',function (req,res) {
-    res.sendfile(path.join(__dirname, 'ui', 'about.html'));
-});
+
     
     
     app.get('/ui/style.css', function (req, res) {
